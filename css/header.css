@@ -1,0 +1,51 @@
+
+.line {
+    max-width: 1140px;
+}
+
+/* .line:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid blue;
+    height: 1000vh;
+    top: 0;
+}
+
+.line:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-right: 1px solid red;
+    height: 1000vh;
+    width: 1140px;
+    top: 0;
+} */
+
+.header {
+    padding-top: 60px;
+}
+
+.container__header {
+    margin: 0 auto;
+    max-width: 1080px;
+    min-height: 300px;
+}
+
+.header__title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.header__par {
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.header__par:not(:last-child) {
+    margin-bottom: 30px;
+} 

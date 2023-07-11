@@ -1,0 +1,34 @@
+.container__nav {
+    max-width: 1140px;
+    min-height: 215px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 25px 0 0 45px;
+}
+
+.nav__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 52.8px;
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.nav__item {
+    font-size: 20px;
+    line-height: 24px;
+    color: #02535F;
+}
+
+.nav__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.nav__item:hover {
+    cursor: pointer;
+}
