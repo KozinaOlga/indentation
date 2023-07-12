@@ -3,24 +3,24 @@
     max-width: 1140px;
 }
 
-/* .line:after {
+.line:after {
     content: "";
-    display: inline-block;
+    display: block;
     position: absolute;
-    border-right: 1px solid blue;
-    height: 1000vh;
+    border-right: 2px solid pink;
+    height: 100%;
     top: 0;
 }
 
 .line:before {
     content: "";
-    display: inline-block;
+    display: block;
     position: absolute;
-    border-right: 1px solid red;
-    height: 1000vh;
+    border-right: 2px solid pink;
+    height: 100%;
     width: 1140px;
     top: 0;
-} */
+}
 
 .header {
     padding-top: 60px;
