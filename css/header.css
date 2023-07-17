@@ -1,38 +1,14 @@
-
-.line {
-    max-width: 1140px;
-}
-
-.line:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-right: 2px solid pink;
-    height: 100%;
-    top: 0;
-}
-
-.line:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-right: 2px solid pink;
-    height: 100%;
-    width: 1140px;
-    top: 0;
-}
-
-.header {
+.article {
     padding-top: 60px;
 }
 
-.container__header {
+.wrapper {
     margin: 0 auto;
     max-width: 1080px;
     min-height: 300px;
 }
 
-.header__title {
+.wrapper__title {
     font-weight: 900;
     font-size: 60px;
     line-height: 72px;
@@ -40,12 +16,10 @@
     margin-bottom: 30px;
 }
 
-.header__par {
-    font-size: 20px;
+.wrapper__par {
     line-height: 24px;
-
 }
 
-.header__par:not(:last-child) {
+.wrapper__par:not(:last-child) {
     margin-bottom: 30px;
 } 

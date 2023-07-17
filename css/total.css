@@ -1,25 +1,14 @@
-.total-section {
-    max-width: 1140px;
-    min-height: 385px;
+.total {
     padding: 25px 0 0 45px;
     background-color: #f1f1f1;
     border-radius: 10px;
 }
 
-.total {
-    max-width: 1080px;
-}
-
 .total__title {
-    position: relative;
     font-weight: 700;
     font-size: 44px;
     line-height: 52.8px;
     margin-bottom: 20px;
-}
-
-.total__list {
-    margin-bottom: 30px;
 }
 
 .total__item {
@@ -27,12 +16,25 @@
     line-height: 24px;
 }
 
+.total__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .total__item:before {
     content: "— ";
     position: relative;
 }
 
-.total__desc {
-    font-size: 20px;
+.total-box {
+    padding: 30px 30px 25px 45px;
+    background-color: #f1f1f1;
+
+}
+
+.total-box__desc {
     line-height: 24px;
+}
+
+.section-total {
+    padding-bottom: 0;
 }
