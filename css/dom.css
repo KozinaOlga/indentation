@@ -14,8 +14,13 @@
     margin-bottom: 30px;
 }
 
+.figure-imagefive-title,
+.figure-imagesix-title {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
 .dom__desc {
-    font-size: 20px;
     line-height: 24px;
 }
 

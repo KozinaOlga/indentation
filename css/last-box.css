@@ -32,9 +32,17 @@
     margin-bottom: 30px;
 }
 
+.image-box-medium {
+    margin-bottom: 30px;
+}
+
 .figure-last-box-small {
     max-width: 317px;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.last-box__title-two {
     margin-bottom: 30px;
 }
 
